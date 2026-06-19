@@ -1,6 +1,8 @@
-# Sistem Informasi Sekretariat: Cloud-Integrated Information System
+# SIAP Dakwah: Cloud-Integrated Information System
 
-Sistem Informasi Sekretariat adalah platform sistem informasi internal organisasi yang dirancang untuk mengotomatisasi manajemen administrasi, persuratan, notulensi rapat, dan kehadiran anggota secara real-time. 
+> 🎬 **[Tonton Video Demo Aplikasi di Sini](LINK_VIDEO_DEMO_LOOM_ATAU_YOUTUBE_KAMU)** (Segera ganti link ini setelah merekam video)
+
+SIAP Dakwah (Sistem Informasi Administrasi Pejuang Dakwah) adalah platform sistem informasi internal organisasi yang dirancang untuk mengotomatisasi manajemen administrasi, persuratan, notulensi rapat, dan kehadiran anggota secara real-time. 
 
 Aplikasi ini mengintegrasikan framework PHP modern dengan ekosistem Google Workspace API untuk menciptakan alur kerja administratif tanpa kertas (*paperless*) yang efisien dan otomatis.
 
@@ -8,9 +10,12 @@ Aplikasi ini mengintegrasikan framework PHP modern dengan ekosistem Google Works
 
 ## 🚀 Masalah & Solusi (Studi Kasus)
 
-* **Masalah Administrasi Organisasi:** Struktur organisasi yang luas dan tersebar (meliputi Biro/Departemen di tingkat Pusat serta Lembaga Dakwah Fakultas/LDF di berbagai fakultas) mengakibatkan data administrasi dan file penting tersimpan secara terfragmentasi. Meskipun masing-masing unit menggunakan Google Drive dan Excel, file-file tersebut tersebar di puluhan link yang terpisah dan tidak terintegrasi. Hal ini menyulitkan pemantauan berkas, rekapitulasi data, serta koordinasi administratif secara keseluruhan.
-* **Solusi Otomatisasi:** SI-Sekretariat memangkas kendala koordinasi ini dengan mengintegrasikan sistem ke dalam satu portal terpusat. Aplikasi ini mengotomatisasi pembuatan dokumen Google Docs melalui API dalam waktu < 5 detik. Data absensi dan evaluasi disinkronkan secara real-time dari Google Sheets ke dashboard aplikasi menggunakan driver database *in-memory* SQLite (Laravel Sushi).
-* **Dampak & Status Proyek:** Saat ini aplikasi sedang dalam **tahap pengujian (testing) dan pengumpulan umpan balik (feedback)** dari para kader/pengurus aktif. Proyek ini bertujuan menyatukan seluruh link dan dokumen administrasi yang berserakan menjadi satu sumber data terpusat (*single source of truth*), meningkatkan kerapian pencatatan, dan menyederhanakan birokrasi lintas fakultas.
+* **Masalah Administrasi Organisasi:**
+  Struktur organisasi yang luas dan tersebar (meliputi Biro/Departemen di tingkat Pusat serta Lembaga Dakwah Fakultas/LDF di berbagai fakultas) mengakibatkan data administrasi dan file penting tersimpan secara terfragmentasi atau terpecah-pecah. Meskipun masing-masing unit menggunakan Google Drive dan Excel, file-file tersebut tersebar di puluhan link yang terpisah dan tidak terintegrasi. Hal ini menyulitkan pemantauan berkas, rekapitulasi data, serta koordinasi administratif secara keseluruhan.
+* **Solusi Otomatisasi:**
+  SIAP Dakwah memangkas kendala koordinasi ini dengan mengintegrasikan sistem ke dalam satu portal terpusat. Aplikasi ini mengotomatisasi pembuatan dokumen Google Docs melalui API. Data absensi dan evaluasi disinkronkan secara real-time dari Google Sheets ke dashboard aplikasi menggunakan driver database *in-memory* SQLite (Laravel Sushi).
+* **Dampak & Status Proyek:**
+  Saat ini aplikasi sedang dalam **tahap pengujian (testing) dan pengumpulan umpan balik (feedback)** dari para kader/pengurus aktif. Proyek ini bertujuan menyatukan seluruh link dan dokumen administrasi yang berserakan menjadi satu sumber data terpusat (*single source of truth*), meningkatkan kerapian pencatatan, dan menyederhanakan birokrasi lintas fakultas.
 
 ---
 
