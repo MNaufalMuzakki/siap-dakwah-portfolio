@@ -1,6 +1,6 @@
-# SI-Sekretariat: Cloud-Integrated Information System
+# Sistem Informasi Sekretariat: Cloud-Integrated Information System
 
-SI-Sekretariat adalah platform sistem informasi internal organisasi yang dirancang untuk mengotomatisasi manajemen administrasi, persuratan, notulensi rapat, dan kehadiran anggota secara real-time. 
+Sistem Informasi Sekretariat adalah platform sistem informasi internal organisasi yang dirancang untuk mengotomatisasi manajemen administrasi, persuratan, notulensi rapat, dan kehadiran anggota secara real-time. 
 
 Aplikasi ini mengintegrasikan framework PHP modern dengan ekosistem Google Workspace API untuk menciptakan alur kerja administratif tanpa kertas (*paperless*) yang efisien dan otomatis.
 
@@ -8,9 +8,9 @@ Aplikasi ini mengintegrasikan framework PHP modern dengan ekosistem Google Works
 
 ## 🚀 Masalah & Solusi (Studi Kasus)
 
-* **Masalah Administrasi Organisasi:** Pengurus organisasi sebelumnya menghabiskan waktu rata-rata 30–45 menit per kegiatan untuk menyalin template notulensi secara manual, mencatat nomor urut surat keluar/masuk, dan merekap absensi secara manual ke spreadsheet terpisah. Proses manual ini rentan terhadap kesalahan penomoran surat (*human error*) dan lambatnya koordinasi data.
-* **Solusi Otomatisasi:** SI-Sekretariat memangkas birokrasi ini dengan mengotomatisasi pembuatan dokumen Google Docs melalui API dalam waktu < 5 detik. Data absensi dan evaluasi disinkronkan secara real-time dari Google Sheets ke dashboard aplikasi menggunakan driver database *in-memory* SQLite.
-* **Dampak Nyata:** Menghemat waktu administrasi hingga 90%, menghilangkan konflik penomoran surat resmi, dan menyediakan satu sumber data terpusat (*single source of truth*) yang mudah diakses oleh seluruh pengurus.
+* **Masalah Administrasi Organisasi:** Struktur organisasi yang luas dan tersebar (meliputi Biro/Departemen di tingkat Pusat serta Lembaga Dakwah Fakultas/LDF di berbagai fakultas) mengakibatkan data administrasi dan file penting tersimpan secara terfragmentasi. Meskipun masing-masing unit menggunakan Google Drive dan Excel, file-file tersebut tersebar di puluhan link yang terpisah dan tidak terintegrasi. Hal ini menyulitkan pemantauan berkas, rekapitulasi data, serta koordinasi administratif secara keseluruhan.
+* **Solusi Otomatisasi:** SI-Sekretariat memangkas kendala koordinasi ini dengan mengintegrasikan sistem ke dalam satu portal terpusat. Aplikasi ini mengotomatisasi pembuatan dokumen Google Docs melalui API dalam waktu < 5 detik. Data absensi dan evaluasi disinkronkan secara real-time dari Google Sheets ke dashboard aplikasi menggunakan driver database *in-memory* SQLite (Laravel Sushi).
+* **Dampak & Status Proyek:** Saat ini aplikasi sedang dalam **tahap pengujian (testing) dan pengumpulan umpan balik (feedback)** dari para kader/pengurus aktif. Proyek ini bertujuan menyatukan seluruh link dan dokumen administrasi yang berserakan menjadi satu sumber data terpusat (*single source of truth*), meningkatkan kerapian pencatatan, dan menyederhanakan birokrasi lintas fakultas.
 
 ---
 
@@ -54,8 +54,8 @@ graph TD
 
 1. **Clone Repositori:**
    ```bash
-   git clone https://github.com/username/si-sekretariat-portfolio.git
-   cd si-sekretariat-portfolio
+   git clone https://github.com/MNaufalMuzakki/siap-dakwah-portfolio.git
+   cd siap-dakwah-portfolio
    ```
 
 2. **Install Dependencies:**
