@@ -1,7 +1,5 @@
 # SIAP Dakwah: Cloud-Integrated Information System
 
-> 🎬 **[Tonton Video Demo Aplikasi di Sini](LINK_VIDEO_DEMO_LOOM_ATAU_YOUTUBE_KAMU)** (Segera ganti link ini setelah merekam video)
-
 SIAP Dakwah (Sistem Informasi Administrasi Pejuang Dakwah) adalah platform sistem informasi internal organisasi yang dirancang untuk mengotomatisasi manajemen administrasi, persuratan, notulensi rapat, dan kehadiran anggota secara real-time. 
 
 Aplikasi ini mengintegrasikan framework PHP modern dengan ekosistem Google Workspace API untuk menciptakan alur kerja administratif tanpa kertas (*paperless*) yang efisien dan otomatis.
